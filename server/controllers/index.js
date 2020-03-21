@@ -30,7 +30,7 @@ exports.signup = (req, res) => {
       res.status(500).json({ message: err })
     })
   }).catch(err => {
-    rres.status(500).json({ message: err })
+    res.status(500).json({ message: err })
   })
 }
  
